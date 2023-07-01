@@ -45,6 +45,7 @@ namespace GadgetDevelopmentKit.Examples
         protected override AggregationMethod GetTimeAggregationMethod(long topicId)
         {
             // Aggregation: Average, earliest, latest, maximum, minimum, none, sum
+            // this DataReader is using Maximum
             return AggregationMethod.Maximum;
         }
 
